@@ -1,0 +1,4 @@
+.portfolio:hover .hover-item{
+opacity: 1;
+transform: scale(1);
+}
