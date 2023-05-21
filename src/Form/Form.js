@@ -56,18 +56,21 @@ const Form = () => {
         console.log(porthfolioInfo)
 
 
-        // fetch('http://localhost:5000', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(porthfolioInfo)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         console.log(data)
+        fetch('https://portfolio-server-site-zeta.vercel.app/ProjectData', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(porthfolioInfo)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if(data.insertedId){
+                    alert('sussessfuilly submitted')
+                }
 
-        //     })
+            })
 
 
 
@@ -187,13 +190,13 @@ const Form = () => {
                         <label className="label">
                             <span className="label-text">Thumb Image</span>
                         </label>
-                        <input name='thumbImage' type="text" placeholder="Thumb image" className="input input-bordered" />
+                        <input name='thumbImage' type="file" placeholder="Thumb image" className="input input-bordered pt-2" />
                     </div>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Cover image</span>
                         </label>
-                        <input name='coverImage' type="text" placeholder="Cover Image" className="input input-bordered" />
+                        <input name='coverImage' type="file" placeholder="Cover Image" className="input input-bordered pt-2" />
                     </div>
                     <div className="form-control">
                         <label className="label">

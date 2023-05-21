@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Portfolio details:
+1) This portfolio create By Emam Hossain.
+2)The main aspent of this portfolio is my best few project which i added the home page
+3)I Use react ,tailwind and a few NPM package
+4) Anybody can contact with me by email, Telegram.
+5)Github Link https://github.com/EMHOSSAIN/Advance-Portfolio-repo.git
+6) In the future i will update my portfolio with my experience and Skills.

@@ -1,0 +1,26 @@
+[
+    {
+        "project_name": "Devhive",
+        "link":"https://devhiveclient.vercel.app/",
+        "image":"https://thumbs.dreamstime.com/z/man-hand-using-online-banking-icon-tablet-screen-device-118686094.jpg",
+        "description":"This is a group project developed by 6 developers in one and a half months. This is a local work-seeking platform. The main aspect of this website is helping newcomer developers and web designers to get work from sellers. A buyer also can be a seller on this website easily. "
+    },
+    {
+        "project_name":"coder work flow",
+        "link":"https://work-flow.live/",
+        "image":"https://media.istockphoto.com/id/1061357372/photo/quality-control-certification-checked-guarantee-of-standard.jpg?s=612x612&w=0&k=20&c=NglktB3z7361LLesSYaGO7LV0P6VRQjt4J7kM4Bh_A8=",
+        "description": "This is a group project. The main focus of the website is to give free service to the student who works hard. There are many features among them admin and instructor routes main to control the full website and give tasks to the student.  "
+    },
+    {
+        "project_name":"Resale Book",
+        "link":"https://assignment-12-ad3e9.web.app/",
+        "image":"https://mennonitelife.org/wp-content/uploads/2021/06/Used-Books.jpg",
+        "description":"This is a business relative project where the admin can be able to sell his old book by reselling it. Also, buyers have to pay book costs through the payment system. I Belive that this is the more attractive website and more helpful."
+    },
+    {
+        "project_name":"Typing speed",
+        "link":"https://stellar-bonbon-26eba3.netlify.app/",
+        "image":"https://beebom.com/wp-content/uploads/2021/04/10-Best-Typing-Test-Websites-to-Check-Your-Typing-Speed.jpg?w=750&quality=75",
+        "description":"Through this website, anybody can build up their typing speed easily as soon as possible. Also can be able to fixed time and history. This is an awesome website for typing learners and is more helpful."
+    }
+]

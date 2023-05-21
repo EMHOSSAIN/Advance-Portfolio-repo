@@ -1,0 +1,204 @@
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+}
+
+.right-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+}
+
+.about-item {
+    border: 1px solid var(--gray5);
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, .1);
+}
+
+.about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid var(--secondary);
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, .32);
+
+}
+
+.abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.large-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--gray1);
+    letter-spacing: 2px;
+}
+
+.small-text::before {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color: var(--gray5);
+}
+
+.left-about {
+    padding-right: 5rem;
+}
+
+.left-about p {
+    line-height: 2rem;
+    padding: 1rem;
+    color: var(--gray1);
+}
+
+.left-about p h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+/* Progress bar */
+.stat-title {
+    text-transform: uppercase;
+    font-size: 1.3ren;
+    padding: 3.5rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.stat-title::before {
+    content: '';
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 1px;
+    background-color: var(--gray5);
+    transform: translateX(-50%);
+}
+
+.right {
+    padding-top: 2rem;
+}
+
+.right .skills_wrapper .skills_box h4 {
+    color: var(--white);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.right .skills_wrapper .skills_box {
+    margin-bottom: 2.6rem;
+}
+
+.right .skills_wrapper .skills_box .progress_wrap {
+    background: #20294a;
+    height: 6px;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0.25px #4d79f6;
+    border-radius: 10px;
+    border: 2px solid #1a253f;
+
+}
+
+.right .skills_wrapper .skills_box .progress_wrap .progress_bar {
+    display: block;
+    height: 100%;
+    background: var(--secondary);
+    width: 0;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.right .skills_wrapper .skills_box .progress_wrap .progress_bar .tooltip {
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    margin-top: 10px;
+    color: var(--secondary);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Progress bar */
+
+
+/* --------Timeline */
+.timeLine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.timeLine-item {
+    position: relative;
+    padding-left: 3rem;
+    border: 1px solid var(--gray5);
+}
+
+.ti-icon {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    background-color: var(--secondary);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 1.3rem;
+}
+
+.ti-duration {
+    padding: .2rem .3rem;
+    background-color: var(--gray5);
+    border-radius: 15px;
+    display: inline-block;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.timeLine .timeLine-item h5 {
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.timeLine .timeLine-item p {
+    color: var(--gray2);
+}
+
+/* --------Timeline end */
+
+
+
+/* ------------ Portofilo start */
+
+
+
+

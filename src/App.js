@@ -1,10 +1,10 @@
 import { createBrowserRouter,  RouterProvider } from 'react-router-dom';
 import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
 import Details from './Components/myDetails/Details';
 import Main from './Layout/Main';
 import Form from './Form/Form';
+import ContactPage from './Components/ContactPage/ContactPage';
 
 
 
@@ -25,7 +25,7 @@ function App() {
         },
         {
           path: '/contact',
-          element: <Contact></Contact>
+          element: <ContactPage></ContactPage>
         },
         {
           path: '/details',
